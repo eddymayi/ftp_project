@@ -1,6 +1,10 @@
 clean files older than 60 days in the /ftp directory
 
-chmod +x clean.py
+cd ftp_project
 
-./clean.py
+mv clean.py /usr/local/bin
+
+chmod +x /usr/local/bin/clean.py
+
+/usr/local/bin/clean.py
 
